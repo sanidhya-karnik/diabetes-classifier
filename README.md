@@ -10,11 +10,13 @@ This repository contains a collection of machine learning models implemented fro
 ```
 .
 ├── notebooks/
-│   ├── diabetes_classifier_v_0_0_3.ipynb       # Exploratory Data Analysis and Statistical Analysis
+│   ├── Diabetes_Classifier_EDA.ipynb           # Exploratory Data Analysis and Statistical Analysis
+│   ├── diabetes_classifier_v_0_0_3.ipynb       # Initial Analysis
 │   ├── discrete_naive_bayes.ipynb              # Naive Bayes from scratch
 │   ├── logistic_regression.ipynb               # Logistic Regression from scratch
 │   ├── support_vector_machine.ipynb            # SVM Implementation and Hyperparameter Tuning
-│   └── svm_rff_tuned.ipynb                     # Final tuned SVM-RFF notebook
+│   ├── svm_rff_tuned.ipynb                     # Final tuned SVM-RFF notebook
+│   └── xg_boost_final.ipynb                    # Final tuned SVM-RFF notebook
 │
 ├── src/
 │   ├── __init__.py
@@ -32,6 +34,7 @@ This repository contains a collection of machine learning models implemented fro
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/sanidhya-karnik/diabetes-classifier.git
+cd diabetes-classifier
 ```
 
 ### 2. Install dependencies
